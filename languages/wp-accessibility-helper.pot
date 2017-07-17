@@ -1,0 +1,675 @@
+# Copyright (C) 2016 WP Accessibility Helper
+# This file is distributed under the same license as the WP Accessibility Helper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Accessibility Helper 0.5.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-accessibility-"
+"helper\n"
+"POT-Creation-Date: 2016-10-21 06:47:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/ajax-functions.php:83
+msgid "Images Report Table"
+msgstr ""
+
+#: admin/ajax-functions.php:89 admin/pages/wah-attachments.php:42
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/ajax-functions.php:92
+msgid "Image Source"
+msgstr ""
+
+#: admin/ajax-functions.php:95
+msgid "Alt"
+msgstr ""
+
+#: admin/ajax-functions.php:98
+msgid "Width"
+msgstr ""
+
+#: admin/ajax-functions.php:101
+msgid "Height"
+msgstr ""
+
+#: admin/ajax-functions.php:104
+msgid "Action"
+msgstr ""
+
+#: admin/ajax-functions.php:107 admin/ajax-functions.php:152
+#: admin/ajax-functions.php:192
+msgid "Preview"
+msgstr ""
+
+#: admin/ajax-functions.php:132
+msgid "not valid"
+msgstr ""
+
+#: admin/ajax-functions.php:146 admin/pages/wah-attachments.php:45
+#: admin/pages/wah-attachments.php:68
+msgid "Edit image"
+msgstr ""
+
+#: admin/ajax-functions.php:171
+msgid "Links Report Table"
+msgstr ""
+
+#: admin/ajax-functions.php:177 admin/pages/wah-attachments.php:41
+msgid "ID"
+msgstr ""
+
+#: admin/ajax-functions.php:180
+msgid "Source"
+msgstr ""
+
+#: admin/ajax-functions.php:183
+msgid "URL"
+msgstr ""
+
+#: admin/ajax-functions.php:186 admin/pages/wah-attachments.php:43
+msgid "Title"
+msgstr ""
+
+#: admin/ajax-functions.php:189
+msgid "Aria-label"
+msgstr ""
+
+#: admin/ajax-functions.php:220
+msgid "empty href"
+msgstr ""
+
+#: admin/ajax-functions.php:230
+msgid "Preview link"
+msgstr ""
+
+#: admin/ajax-functions.php:286
+msgid "Image has been updated."
+msgstr ""
+
+#: admin/ajax-functions.php:290
+msgid "It look likes, this image is not on your server..."
+msgstr ""
+
+#: admin/ajax-functions.php:394 admin/ajax-functions.php:395
+#: admin/pages/wah-admin.php:284 admin/pages/wah-admin.php:285
+msgid "Background color"
+msgstr ""
+
+#: admin/ajax-functions.php:398 admin/ajax-functions.php:399
+#: admin/pages/wah-admin.php:288 admin/pages/wah-admin.php:289
+msgid "Text color"
+msgstr ""
+
+#: admin/ajax-functions.php:403 admin/pages/wah-admin.php:293
+msgid "Delete"
+msgstr ""
+
+#: admin/ajax-functions.php:434
+msgid "Maximum 4 variations"
+msgstr ""
+
+#: admin/ajax-functions.php:455
+msgid "Removed!"
+msgstr ""
+
+#: admin/functions.php:92
+msgid "Thanks!"
+msgstr ""
+
+#: admin/pages/wah-admin.php:101 admin/pages/wah-contribute.php:13
+#: admin/pages/wah-landmark.php:25
+msgid "Options saved."
+msgstr ""
+
+#: admin/pages/wah-admin.php:158
+msgid ""
+"WP Accessibility Helper. <span class=\"wah_slogan\">\"Wordpress "
+"Accessibility made easy!\"</span>"
+msgstr ""
+
+#: admin/pages/wah-admin.php:159
+msgid ""
+"Love this plugin? Need more features? Fill free to contact me: vol4ikman at "
+"gmail"
+msgstr ""
+
+#: admin/pages/wah-admin.php:159
+msgid "Plugin created and supported by"
+msgstr ""
+
+#: admin/pages/wah-admin.php:160
+msgid ""
+"Thank You for using <strong>WP Accessibility Helper</strong>! Please, rate "
+"us on"
+msgstr ""
+
+#: admin/pages/wah-admin.php:172
+msgid "Global Settings"
+msgstr ""
+
+#: admin/pages/wah-admin.php:177
+msgid "Enable keyboard navigation"
+msgstr ""
+
+#: admin/pages/wah-admin.php:181
+msgid "Keyboard navigation - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:186
+msgid "Enable Dark Theme?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:188
+msgid "Close button - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:189
+msgid "Clear cookies - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:197
+msgid "Upload icon"
+msgstr ""
+
+#: admin/pages/wah-admin.php:202
+msgid "Upload Logo"
+msgstr ""
+
+#: admin/pages/wah-admin.php:203
+msgid "Delete Logo"
+msgstr ""
+
+#: admin/pages/wah-admin.php:207
+msgid "Hide for mobile?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:208
+msgid "Show Sidebar on left side?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:212
+msgid "Enable Greyscale Images?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:213
+msgid "Greyscale Images button - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:217
+msgid "Enable Invert Colors & Images?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:218
+msgid "Invert button - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:226
+msgid "Font Settings"
+msgstr ""
+
+#: admin/pages/wah-admin.php:230
+msgid "Enable Readable Font?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:231
+msgid "Enable Readable Font - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:236
+msgid "Choose custom font"
+msgstr ""
+
+#: admin/pages/wah-admin.php:242
+msgid "Please, choose font"
+msgstr ""
+
+#: admin/pages/wah-admin.php:254
+msgid "Font size in rem?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:255
+msgid "Font resize - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:264
+msgid "Contrast Settings"
+msgstr ""
+
+#: admin/pages/wah-admin.php:268
+msgid "Enable contrast mode?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:269
+msgid "Contrast - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:270
+msgid "Choose color button - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:272
+msgid "Contrast variations?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:276
+msgid "Please add custom contrast mode variation:"
+msgstr ""
+
+#: admin/pages/wah-admin.php:303
+msgid "Add new color"
+msgstr ""
+
+#: admin/pages/wah-admin.php:306
+msgid "Save colors"
+msgstr ""
+
+#: admin/pages/wah-admin.php:318
+msgid "Styles Settings"
+msgstr ""
+
+#: admin/pages/wah-admin.php:320
+msgid "Remove animations mode?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:321
+msgid "Remove animations - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:330
+msgid "Remove styles mode?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:331
+msgid "Remove styles - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:332
+msgid ""
+"This feature doesn't works if you have 'Async JS and CSS' plugin installed."
+msgstr ""
+
+#: admin/pages/wah-admin.php:340
+msgid "Links Settings"
+msgstr ""
+
+#: admin/pages/wah-admin.php:343
+msgid "Underline links mode?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:344
+msgid "Underline links title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:346
+msgid "Highlight links mode?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:347
+msgid "Highlight links - title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:349
+msgid "Add role=\"link\" to a tags?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:350
+msgid "Remove all links titles?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:356
+msgid "Content Settings"
+msgstr ""
+
+#: admin/pages/wah-admin.php:359
+msgid "Lights Off mode?"
+msgstr ""
+
+#: admin/pages/wah-admin.php:360
+msgid "Lights Off title"
+msgstr ""
+
+#: admin/pages/wah-admin.php:361
+msgid "Main content selector"
+msgstr ""
+
+#: admin/pages/wah-admin.php:369 admin/pages/wah-contribute.php:54
+#: admin/pages/wah-landmark.php:152
+msgid "Update Options"
+msgstr ""
+
+#: admin/pages/wah-attachments.php:4
+msgid "WP Accessibility Helper - Attachments Control Center"
+msgstr ""
+
+#: admin/pages/wah-attachments.php:44
+msgid "Alt tag"
+msgstr ""
+
+#: admin/pages/wah-attachments.php:58
+msgid "view"
+msgstr ""
+
+#: admin/pages/wah-attachments.php:63
+msgid "no alt tag"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:23
+msgid "WAH - Contribute"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:29
+msgid "Show author credits?"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:33
+msgid "Hello dear friend!"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:34
+msgid ""
+"It is not a secret that creating a new template for Wordpress demands "
+"significant effort, time and sometimes even money (imagine that!). Please "
+"help us make an even more friendly and secure product for you, which you and "
+"other users will be able to enjoy absolutely for free."
+msgstr ""
+
+#: admin/pages/wah-contribute.php:35
+msgid ""
+"Would you agree to share with us several details about your site listed "
+"below?"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:37
+msgid "Wordpress version + theme name"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:38
+msgid "PHP version - for better debugging"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:39
+msgid "Your IP address - for better translations"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:40
+msgid "Website admin email"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:41
+msgid "Website language & url address"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:44
+msgid ""
+"If your answer is yes, please tick the checkbox below, this would really "
+"help us in further development of the plugin.\n"
+"                We guarantee that your information will only be used for "
+"this internal purpose and will never be given to any third parties."
+msgstr ""
+
+#: admin/pages/wah-contribute.php:46
+msgid "Thank you in advance for your understanding and contribution!"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:47
+msgid "Cinserely,"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:48
+msgid "- WP Accessibility Helper Team"
+msgstr ""
+
+#: admin/pages/wah-contribute.php:51
+msgid "Agree"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:94
+msgid "WAH - DOM Scanner"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:98
+msgid "WAH DOM Scanner"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:99
+msgid ""
+"<p>DOM Scanner allows you to scan (analyze) your web pages for WCAG errors. "
+"For example, use ALT tags in the pictures, using the 'title' and 'aria-"
+"label' in the link.</p><p>This plugin feature is in beta stage of "
+"development, so we are very grateful to you if you will inform our team "
+"about all the bugs and 'strangeness'.</p>"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:100
+msgid "'allow_url_fopen' on your server must to be enabled."
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:107
+msgid "Server information:"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:128
+msgid "Select Page or Post"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:130
+msgid "Page:"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:137
+msgid "Post:"
+msgstr ""
+
+#: admin/pages/wah-dom-scanner.php:147
+msgid "Start WAH Scanner"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:40
+msgid "Landmark Control"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:41
+msgid "ARIA and HTML5"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:45
+msgid ""
+"More information about HTML5 landmarks you can find <a href=\"%s\" target="
+"\"_blank\">HERE</a>."
+msgstr ""
+
+#: admin/pages/wah-landmark.php:95
+msgid "Control HTML5 elements selectors"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:102
+msgid "Header element selector"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:111
+msgid "Sidebar element selector"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:120
+msgid "Footer element selector"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:129
+msgid "Main element selector"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:138
+msgid "Navigation element selector"
+msgstr ""
+
+#: admin/pages/wah-landmark.php:144
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/pages/wah-sidebar-controls.php:4
+msgid "Sidebar widgets order"
+msgstr ""
+
+#: inc/wah-front-functions.php:59
+msgid "You do NOT have permissions to access this page"
+msgstr ""
+
+#: inc/wah-front-functions.php:60
+msgid "Please contact site administrator."
+msgstr ""
+
+#: inc/wah-front-functions.php:135
+msgid "Font Resize"
+msgstr ""
+
+#: inc/wah-front-functions.php:137
+msgid "Contrast"
+msgstr ""
+
+#: inc/wah-front-functions.php:138
+msgid "Choose color"
+msgstr ""
+
+#: inc/wah-front-functions.php:142
+msgid "Underline links"
+msgstr ""
+
+#: inc/wah-front-functions.php:146
+msgid "Remove styles"
+msgstr ""
+
+#: inc/wah-front-functions.php:147 wp-accessibility-helper-view.php:3
+msgid "Close"
+msgstr ""
+
+#: inc/wah-front-functions.php:149 wp-accessibility-helper-view.php:4
+msgid "Clear cookies"
+msgstr ""
+
+#: inc/wah-front-functions.php:152
+msgid "Images Greyscale"
+msgstr ""
+
+#: inc/wah-front-functions.php:155
+msgid "Highlight Links"
+msgstr ""
+
+#: inc/wah-front-functions.php:158
+msgid "Invert Colors"
+msgstr ""
+
+#: inc/wah-front-functions.php:161
+msgid "Remove Animations"
+msgstr ""
+
+#: inc/wah-front-functions.php:164
+msgid "Readable Font"
+msgstr ""
+
+#: inc/wah-front-functions.php:167
+msgid "Keyboard navigation"
+msgstr ""
+
+#: inc/wah-front-functions.php:170
+msgid "Lights Off"
+msgstr ""
+
+#: inc/wah-front-functions.php:178 inc/wah-front-functions.php:179
+msgid "smaller font size"
+msgstr ""
+
+#: inc/wah-front-functions.php:180 inc/wah-front-functions.php:181
+msgid "larger font size"
+msgstr ""
+
+#: inc/wah-front-functions.php:216
+msgid "black"
+msgstr ""
+
+#: inc/wah-front-functions.php:218
+msgid "white"
+msgstr ""
+
+#: inc/wah-front-functions.php:220
+msgid "green"
+msgstr ""
+
+#: inc/wah-front-functions.php:222
+msgid "blue"
+msgstr ""
+
+#: inc/wah-front-functions.php:224
+msgid "red"
+msgstr ""
+
+#: inc/wah-front-functions.php:225
+msgid "orange"
+msgstr ""
+
+#: inc/wah-front-functions.php:227
+msgid "yellow"
+msgstr ""
+
+#: inc/wah-front-functions.php:229
+msgid "navi"
+msgstr ""
+
+#: inc/wah-front-functions.php:398
+msgid "Maximum 4 contrast variations"
+msgstr ""
+
+#: wp-accessibility-helper-view.php:6
+msgid "ON/OFF"
+msgstr ""
+
+#: wp-accessibility-helper-view.php:22
+msgid "Accessibility Helper sidebar"
+msgstr ""
+
+#: wp-accessibility-helper-view.php:23 wp-accessibility-helper.php:35
+msgid "Accessibility"
+msgstr ""
+
+#: wp-accessibility-helper.php:40
+msgid "Widgets Order"
+msgstr ""
+
+#: wp-accessibility-helper.php:44
+msgid "DOM Scanner"
+msgstr ""
+
+#: wp-accessibility-helper.php:48
+msgid "Attachments Control"
+msgstr ""
+
+#: wp-accessibility-helper.php:52
+msgid "Landmark & CSS"
+msgstr ""
+
+#: wp-accessibility-helper.php:56
+msgid "Contribute"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Accessibility Helper"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (WP Accessibility Helper 0.5.6.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (WP Accessibility Helper 0.5.6.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.volkov.co.il"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Wordpress Accessibility Helper sidebar"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alexander Volkov"
+msgstr ""

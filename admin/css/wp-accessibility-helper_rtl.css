@@ -1,0 +1,48 @@
+.form30,
+label.text_label{
+    float: right;
+}
+.contrast-mode-item {
+    float: right;
+    margin-right:0;
+    margin-left: 2%;
+}
+span.wah_slogan {
+    display: inline-block;
+}
+span.active_widget,
+span.inactive_widget {
+    margin-right: 0;
+    margin-left: 4px;
+}
+.wah_scanner_table_trigger span {
+    margin-left: 8px;
+    margin-right: 0px;
+    -moz-transform: scale(1) rotate(-180deg);
+    -webkit-transform: scale(1) rotate(-180deg);
+    -o-transform: scale(1) rotate(-180deg);
+    -ms-transform: scale(1) rotate(-180deg);
+    transform: scale(1) rotate(-180deg);
+}
+#fountainG {
+    right: auto;
+    left: 10px;
+}
+.contrast-mode-item .action-loader {
+    left: auto;
+    top: 24px;
+    right: -17px;
+}
+.wah_header_notice {
+    border-right: 10px solid #236478;
+    border-left:0;
+}
+.form_element h3,
+h3.form_element_header {
+    padding-left: 0;
+    padding-right: 40px;
+}
+span.toggle-wah-section {    
+    right: 10px;
+    left: auto;
+}

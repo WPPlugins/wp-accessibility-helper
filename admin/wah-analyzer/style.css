@@ -1,0 +1,281 @@
+.admin-bar #wah_analyzer_sidebar {
+	top: 32px;
+}
+#wah_analyzer_sidebar {
+    font-family:Arial, Helvetica, sans-serif !important;
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #236478;
+    z-index: 99;
+    color: #FFF;
+    padding: 5px;
+    font-size:13px;
+
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+
+	-webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.4);
+}
+#wah_analyzer_sidebar a {
+    color: #FFF;
+}
+#wah_analyzer_sidebar.closed{
+    left:-200px;
+}
+.wah_analyzer_sidebar_toggle {
+    position: absolute;
+    right: -32px;
+    width: 32px;
+    height: 32px;
+    background: #236478;
+    top: 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 19px;
+
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.wah_analyzer_sidebar_toggle.closed {
+    -moz-transform: scale(1) rotate(-360deg);
+    -webkit-transform: scale(1) rotate(-360deg);
+    -o-transform: scale(1) rotate(-360deg);
+    -ms-transform: scale(1) rotate(-360deg);
+    transform: scale(1) rotate(-360deg);
+}
+#wah_analyzer_sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+#wah_analyzer_sidebar ul a {
+    text-decoration: underline;
+}
+#wah_analyzer_sidebar ul a:hover {
+    text-decoration: none;
+}
+.wah_analyzer_sidebar_title {
+    font-weight: bold;
+    text-align: center;
+}
+.wah_analyzer_sidebar_title h4 {
+	font-size: 15px !important;
+	font-weight: bold;
+	margin: 10px 0 !important;
+	color: #FFF !important;
+}
+.wah_analyzer_sidebar_title h5 {
+	font-size: 14px !important;
+	font-weight: bold;
+	margin:0 !important;
+	color: #FFF !important;
+}
+a.highlighted {
+    background-color: yellow !important;
+    color: #000 !important;
+}
+form.highlighted,
+img.highlighted {
+    outline: 3px solid yellow !important;
+}
+img.highlighted_error {
+    outline: 3px solid red !important;
+}
+.wah_analyzer_line {
+    height: 1px;
+    width: 100%;
+    background: #FFF;
+    margin:6px 0;
+}
+body .notifyer {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 11px;
+	padding: 0 2px;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+    font-weight: normal !important;
+    text-transform: none !important;
+	letter-spacing: 0 !important;
+	position: relative;
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+.wah-good {
+    background-color: #449d44 !important;
+    color: #FFF !important;
+}
+.wah-error {
+    background-color: #c9302c !important;
+    color: #FFF !important;
+}
+.wah-warning {
+    background-color: #f0ad4e !important;
+    color: #FFF !important;
+}
+.wah_color_type span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+.wah_color_type a {
+    color: #FFF;
+    text-decoration: none !important;
+}
+.wah_color_type a.active {
+    color: yellow !important;
+    text-decoration: underline !important;
+}
+
+button.wah_button {
+    background: #000;
+    border: 1px solid #FFF;
+    padding: 0 2px;
+    color: #FFF;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 16px;
+    margin: 0 2px;
+    white-space: nowrap;
+    font-weight: normal !important;
+    text-transform: none !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    position: absolute;
+    z-index: 99;
+}
+button.wah_button:hover {
+    background: green;
+}
+.wah_image_wrapper {
+    position: relative;
+	display: inline-block;
+}
+.wah_image_wrapper:after,
+.wah_image_wrapper:before {
+	clear: both;
+	display: block;
+	content: '';
+}
+.wah_image_wrapper .notifyer {
+    position: absolute;
+    top:49%;
+}
+
+.wah_dark_overlay {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(35, 100, 120, 0.9);
+}
+.wah_popup_wrapper {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background: #FFF;
+    color: #000;
+    border:2px solid #000;
+    z-index: 999;
+    min-height: 100px;
+    position: fixed;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -90px;
+    text-transform: none !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+}
+.wah_popup_form label,
+.wah_popup_form input,
+.wah_popup_form button {
+    width: 100%;
+    max-width: 100%;
+}
+.wah_popup_form label,
+.wah_popup_form input {
+    margin-bottom: 10px;
+}
+#wah_alt_input_submit {
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    color: #FFF;
+    background: #000;
+    font-weight: bold;
+	-webkit-transition: all 250ms ease;
+	-moz-transition: all 250ms ease;
+	-ms-transition: all 250ms ease;
+	-o-transition: all 250ms ease;
+	transition: all 250ms ease;
+}
+#wah_alt_input_submit:hover,
+#wah_alt_input_submit:focus {
+	background: green;
+}
+.wah_form_error {
+    color: red;
+    display: none;
+    margin-bottom: 10px;
+	font-size:13px;
+}
+.wah_close_popup {
+    background: #000;
+    color: #FFF;
+    padding: 3px;
+    line-height: 1;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    max-width: 28px !important;
+}
+.notifyer.notifyer-left {
+    left: 0 !important;
+    right: auto !important;
+}
+.notifyer.notifyer-right {
+    left: auto !important;
+    right: 0 !important;
+}
+.wah_ajax_loader {
+	background: url(ajax-loader.gif) no-repeat 0 0;
+	width: 25px;
+	height: 25px;
+	display: none;
+	position: absolute;
+	right: 10px;
+	bottom:18px;
+}
+.wah_analyzer_sidebar_footer {
+	position: absolute;
+	left: 0;
+	bottom:10px;
+	width: 100%;
+	color: #FFF;
+	background: #002e42;
+	padding: 5px 0;
+	text-align: center;
+	font-weight: bold;
+}
+.wah_popup_response_message {
+	font-weight: bold;
+	font-size: 13px;
+}
+.wah_popup_response_message span {
+	padding: 5px 0;
+	display: block;
+}
+span.good {
+    color: green;
+}

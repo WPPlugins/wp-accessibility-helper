@@ -1,0 +1,697 @@
+# Copyright (C) 2016 WP Accessibility Helper
+# This file is distributed under the same license as the WP Accessibility Helper package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Accessibility Helper 0.5.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-accessibility-"
+"helper\n"
+"POT-Creation-Date: 2016-10-18 23:22+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-10-18 23:40+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: WP Accessibility Helper team <vol4ikman@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: he_IL\n"
+
+#: admin/ajax-functions.php:83
+msgid "Images Report Table"
+msgstr "דוח מצב של תמונות"
+
+#: admin/ajax-functions.php:89 admin/pages/wah-attachments.php:42
+msgid "Thumbnail"
+msgstr "תמונה ממוזערת"
+
+#: admin/ajax-functions.php:92
+msgid "Image Source"
+msgstr "עריכת תמונה"
+
+#: admin/ajax-functions.php:95
+msgid "Alt"
+msgstr "תג Alt"
+
+#: admin/ajax-functions.php:98
+msgid "Width"
+msgstr "רוחב"
+
+#: admin/ajax-functions.php:101
+msgid "Height"
+msgstr "גובה"
+
+#: admin/ajax-functions.php:104
+msgid "Action"
+msgstr "פעולה"
+
+#: admin/ajax-functions.php:107 admin/ajax-functions.php:152
+#: admin/ajax-functions.php:192
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: admin/ajax-functions.php:132
+msgid "not valid"
+msgstr "לא תקין"
+
+#: admin/ajax-functions.php:146 admin/pages/wah-attachments.php:45
+#: admin/pages/wah-attachments.php:68
+msgid "Edit image"
+msgstr "עריכת תמונה"
+
+#: admin/ajax-functions.php:171
+msgid "Links Report Table"
+msgstr "דוח מצב של קישורים"
+
+#: admin/ajax-functions.php:177 admin/pages/wah-attachments.php:41
+msgid "ID"
+msgstr "מזהה"
+
+#: admin/ajax-functions.php:180
+msgid "Source"
+msgstr "מקור"
+
+#: admin/ajax-functions.php:183
+msgid "URL"
+msgstr "קישור"
+
+#: admin/ajax-functions.php:186 admin/pages/wah-attachments.php:43
+msgid "Title"
+msgstr "כותרת"
+
+#: admin/ajax-functions.php:189
+msgid "Aria-label"
+msgstr "Aria-label"
+
+#: admin/ajax-functions.php:220
+msgid "empty href"
+msgstr "קישור ריק"
+
+#: admin/ajax-functions.php:230
+msgid "Preview link"
+msgstr "קישור לתצוגה מקדימה"
+
+#: admin/ajax-functions.php:286
+msgid "Image has been updated."
+msgstr "תמונה עודכנה בהצלחה."
+
+#: admin/ajax-functions.php:290
+msgid "It look likes, this image is not on your server..."
+msgstr "תמונה זאת לא קיימת בשרת שלך. היא נמצאת בשרת חיצוני אחר..."
+
+#: admin/ajax-functions.php:394 admin/ajax-functions.php:395
+#: admin/pages/wah-admin.php:284 admin/pages/wah-admin.php:285
+msgid "Background color"
+msgstr "צבע רקע"
+
+#: admin/ajax-functions.php:398 admin/ajax-functions.php:399
+#: admin/pages/wah-admin.php:288 admin/pages/wah-admin.php:289
+msgid "Text color"
+msgstr "צבע טקסט"
+
+#: admin/ajax-functions.php:403 admin/pages/wah-admin.php:293
+msgid "Delete"
+msgstr "הסר"
+
+#: admin/ajax-functions.php:434
+msgid "Maximum 4 variations"
+msgstr "מקסימום 4 וריאציות"
+
+#: admin/ajax-functions.php:455
+msgid "Removed!"
+msgstr "הוסר!"
+
+#: admin/functions.php:92
+msgid "Thanks!"
+msgstr "תודה!"
+
+#: admin/pages/wah-admin.php:101 admin/pages/wah-contribute.php:13
+#: admin/pages/wah-landmark.php:25
+msgid "Options saved."
+msgstr "הגדרות נשמרו."
+
+#: admin/pages/wah-admin.php:158
+msgid ""
+"WP Accessibility Helper. <span class=\"wah_slogan\">\"Wordpress "
+"Accessibility made easy!\"</span>"
+msgstr ""
+"עוזר נגישות WAH. <span class=\"wah_slogan\">\"Wordpress Accessibility made "
+"easy!\"</span>"
+
+#: admin/pages/wah-admin.php:159
+msgid ""
+"Love this plugin? Need more features? Fill free to contact me: vol4ikman at "
+"gmail"
+msgstr "אהבתם את התוסף? תרגישו חופשי ליצור איתי קשר ב: vol4ikman at google.com"
+
+#: admin/pages/wah-admin.php:159
+msgid "Plugin created and supported by"
+msgstr "תוסף נוצר ונתמך על ידי"
+
+#: admin/pages/wah-admin.php:160
+msgid ""
+"Thank You for using <strong>WP Accessibility Helper</strong>! Please, rate "
+"us on"
+msgstr ""
+"Thank You for using <strong>WP Accessibility Helper</strong>! Please, rate "
+"us on"
+
+#: admin/pages/wah-admin.php:172
+msgid "Global Settings"
+msgstr "הגדרות כלליות"
+
+#: admin/pages/wah-admin.php:177
+msgid "Enable keyboard navigation"
+msgstr "הפעל ניווט מקלדת"
+
+#: admin/pages/wah-admin.php:181
+msgid "Keyboard navigation - title"
+msgstr "כותרת של ניווט מקלדת"
+
+#: admin/pages/wah-admin.php:186
+msgid "Enable Dark Theme?"
+msgstr "הפעל ערכת נושא \"Dark\"?"
+
+#: admin/pages/wah-admin.php:188
+msgid "Close button - title"
+msgstr "כותרת של כפתור סגור"
+
+#: admin/pages/wah-admin.php:189
+msgid "Clear cookies - title"
+msgstr "לנקות זכרון \"עוגיות\" - כותרת"
+
+#: admin/pages/wah-admin.php:197
+msgid "Upload icon"
+msgstr "העלה אייקון"
+
+#: admin/pages/wah-admin.php:202
+msgid "Upload Logo"
+msgstr "העלה לוגו"
+
+#: admin/pages/wah-admin.php:203
+msgid "Delete Logo"
+msgstr "הסר לוגו"
+
+#: admin/pages/wah-admin.php:207
+msgid "Hide for mobile?"
+msgstr "הסתר לנייד?"
+
+#: admin/pages/wah-admin.php:208
+msgid "Show Sidebar on left side?"
+msgstr "הצג  סרגל צד בצד שמאל?"
+
+#: admin/pages/wah-admin.php:212
+msgid "Enable Greyscale Images?"
+msgstr "הפעל תמונות בגוון אפור?"
+
+#: admin/pages/wah-admin.php:213
+msgid "Greyscale Images button - title"
+msgstr "כפתור של תמונות באפור"
+
+#: admin/pages/wah-admin.php:217
+msgid "Enable Invert Colors & Images?"
+msgstr "הפעל \"הפוך צבעים\"?"
+
+#: admin/pages/wah-admin.php:218
+msgid "Invert button - title"
+msgstr "כותרת של כפתור \"הפוך צבעים\""
+
+#: admin/pages/wah-admin.php:226
+msgid "Font Settings"
+msgstr "הגדרות פונטים"
+
+#: admin/pages/wah-admin.php:230
+msgid "Enable Readable Font?"
+msgstr "הפעל \"פונט קריא\"?"
+
+#: admin/pages/wah-admin.php:231
+msgid "Enable Readable Font - title"
+msgstr "כותרת של  \"פונט קריא\""
+
+#: admin/pages/wah-admin.php:236
+msgid "Choose custom font"
+msgstr "בחר פונט בהתאמה אישית"
+
+#: admin/pages/wah-admin.php:242
+msgid "Please, choose font"
+msgstr "בבקשה, בחר פונט"
+
+#: admin/pages/wah-admin.php:254
+msgid "Font size in rem?"
+msgstr "גודל פונטים ב-rem?"
+
+#: admin/pages/wah-admin.php:255
+msgid "Font resize - title"
+msgstr "שינוי גודל פונט - כותרת"
+
+#: admin/pages/wah-admin.php:264
+msgid "Contrast Settings"
+msgstr "הגדרות ניגודיות"
+
+#: admin/pages/wah-admin.php:268
+msgid "Enable contrast mode?"
+msgstr "הפעל ניגודיות?"
+
+#: admin/pages/wah-admin.php:269
+msgid "Contrast - title"
+msgstr "ניגודיות - כותרת"
+
+#: admin/pages/wah-admin.php:270
+msgid "Choose color button - title"
+msgstr "כותרת של כפתור \"בחר צבע\""
+
+#: admin/pages/wah-admin.php:272
+msgid "Contrast variations?"
+msgstr "וריאציות של ניגודיות?"
+
+#: admin/pages/wah-admin.php:276
+msgid "Please add custom contrast mode variation:"
+msgstr "נא להוסיף וריאציה ניגודיות מותאם אישית:"
+
+#: admin/pages/wah-admin.php:303
+msgid "Add new color"
+msgstr "להוסיף צבע חדש"
+
+#: admin/pages/wah-admin.php:306
+msgid "Save colors"
+msgstr "שמור צבע"
+
+#: admin/pages/wah-admin.php:318
+msgid "Styles Settings"
+msgstr "הגדרות עיצוב"
+
+#: admin/pages/wah-admin.php:320
+msgid "Remove animations mode?"
+msgstr "הסר אנימציות?"
+
+#: admin/pages/wah-admin.php:321
+msgid "Remove animations - title"
+msgstr "הסר אנימציות - כותרת"
+
+#: admin/pages/wah-admin.php:330
+msgid "Remove styles mode?"
+msgstr "הפעל הסרת עיצוב?"
+
+#: admin/pages/wah-admin.php:331
+msgid "Remove styles - title"
+msgstr "הסר עיצובים - כותרת"
+
+#: admin/pages/wah-admin.php:332
+msgid ""
+"This feature doesn't works if you have 'Async JS and CSS' plugin installed."
+msgstr "הגדרה זאת לא עובדת אם תוסף 'Async JS and CSS' פעיל"
+
+#: admin/pages/wah-admin.php:340
+msgid "Links Settings"
+msgstr "הגדרות של קישורים"
+
+#: admin/pages/wah-admin.php:343
+msgid "Underline links mode?"
+msgstr "הפעלת קו תחתון בקישורים?"
+
+#: admin/pages/wah-admin.php:344
+msgid "Underline links title"
+msgstr "קו תחתון בקישורים - כותרת"
+
+#: admin/pages/wah-admin.php:346
+msgid "Highlight links mode?"
+msgstr "סמן קישורים עם צבע רקע?"
+
+#: admin/pages/wah-admin.php:347
+msgid "Highlight links - title"
+msgstr "סמן קישורים עם צבע רקע - כותרת"
+
+#: admin/pages/wah-admin.php:349
+msgid "Add role=\"link\" to a tags?"
+msgstr "להוסיף תגיות role=\"link\" לקישורים?"
+
+#: admin/pages/wah-admin.php:350
+msgid "Remove all links titles?"
+msgstr "להסיר תגית title בכל הקישורים?"
+
+#: admin/pages/wah-admin.php:356
+msgid "Content Settings"
+msgstr "הגדרות תוכן"
+
+#: admin/pages/wah-admin.php:359
+msgid "Lights Off mode?"
+msgstr "הפעל כיבוי אורות?"
+
+#: admin/pages/wah-admin.php:360
+msgid "Lights Off title"
+msgstr "כיבוי אורות - כותרת"
+
+#: admin/pages/wah-admin.php:361
+msgid "Main content selector"
+msgstr "בורר תוכן ראשי"
+
+#: admin/pages/wah-admin.php:369 admin/pages/wah-contribute.php:54
+#: admin/pages/wah-landmark.php:152
+msgid "Update Options"
+msgstr "עדכן הגדרות"
+
+#: admin/pages/wah-attachments.php:4
+msgid "WP Accessibility Helper - Attachments Control Center"
+msgstr "עוזר נגישות - לוח בקרת תמונות"
+
+#: admin/pages/wah-attachments.php:44
+msgid "Alt tag"
+msgstr "תג Alt"
+
+#: admin/pages/wah-attachments.php:58
+msgid "view"
+msgstr "הצג"
+
+#: admin/pages/wah-attachments.php:63
+msgid "no alt tag"
+msgstr "אין תגית alt"
+
+#: admin/pages/wah-contribute.php:23
+msgid "WAH - Contribute"
+msgstr "לקדם עוזר נגישות"
+
+#: admin/pages/wah-contribute.php:29
+msgid "Show author credits?"
+msgstr "הצג קרדיטים המחבר?"
+
+#: admin/pages/wah-contribute.php:33
+msgid "Hello dear friend!"
+msgstr "Hello dear friend!"
+
+#: admin/pages/wah-contribute.php:34
+msgid ""
+"It is not a secret that creating a new template for Wordpress demands "
+"significant effort, time and sometimes even money (imagine that!). Please "
+"help us make an even more friendly and secure product for you, which you and "
+"other users will be able to enjoy absolutely for free."
+msgstr ""
+"It is not a secret that creating a new template for Wordpress demands "
+"significant effort, time and sometimes even money (imagine that!). Please "
+"help us make an even more friendly and secure product for you, which you and "
+"other users will be able to enjoy absolutely for free."
+
+#: admin/pages/wah-contribute.php:35
+msgid ""
+"Would you agree to share with us several details about your site listed "
+"below?"
+msgstr ""
+"Would you agree to share with us several details about your site listed "
+"below?"
+
+#: admin/pages/wah-contribute.php:37
+msgid "Wordpress version + theme name"
+msgstr "Wordpress version + theme name"
+
+#: admin/pages/wah-contribute.php:38
+msgid "PHP version - for better debugging"
+msgstr "PHP version - for better debugging"
+
+#: admin/pages/wah-contribute.php:39
+msgid "Your IP address - for better translations"
+msgstr "Your IP address - for better translations"
+
+#: admin/pages/wah-contribute.php:40
+msgid "Website admin email"
+msgstr "אימייל של מנהל האתר"
+
+#: admin/pages/wah-contribute.php:41
+msgid "Website language & url address"
+msgstr "שפת האתר וקישורים"
+
+#: admin/pages/wah-contribute.php:44
+msgid ""
+"If your answer is yes, please tick the checkbox below, this would really "
+"help us in further development of the plugin.\n"
+"                We guarantee that your information will only be used for "
+"this internal purpose and will never be given to any third parties."
+msgstr ""
+"If your answer is yes, please tick the checkbox below, this would really "
+"help us in further development of the plugin.\n"
+"                We guarantee that your information will only be used for "
+"this internal purpose and will never be given to any third parties."
+
+#: admin/pages/wah-contribute.php:46
+msgid "Thank you in advance for your understanding and contribution!"
+msgstr "Thank you in advance for your understanding and contribution!"
+
+#: admin/pages/wah-contribute.php:47
+msgid "Cinserely,"
+msgstr "Cinserely,"
+
+#: admin/pages/wah-contribute.php:48
+msgid "- WP Accessibility Helper Team"
+msgstr "- WP Accessibility Helper Team"
+
+#: admin/pages/wah-contribute.php:51
+msgid "Agree"
+msgstr "מסכים"
+
+#: admin/pages/wah-dom-scanner.php:94
+msgid "WAH - DOM Scanner"
+msgstr "סורק דפי האתר"
+
+#: admin/pages/wah-dom-scanner.php:98
+msgid "WAH DOM Scanner"
+msgstr "סורק דפי האתר"
+
+#: admin/pages/wah-dom-scanner.php:99
+msgid ""
+"<p>DOM Scanner allows you to scan (analyze) your web pages for WCAG errors. "
+"For example, use ALT tags in the pictures, using the 'title' and 'aria-"
+"label' in the link.</p><p>This plugin feature is in beta stage of "
+"development, so we are very grateful to you if you will inform our team "
+"about all the bugs and 'strangeness'.</p>"
+msgstr ""
+"<p>DOM Scanner allows you to scan (analyze) your web pages for WCAG errors. "
+"For example, use ALT tags in the pictures, using the 'title' and 'aria-"
+"label' in the link.</p><p>This plugin feature is in beta stage of "
+"development, so we are very grateful to you if you will inform our team "
+"about all the bugs and 'strangeness'.</p>"
+
+#: admin/pages/wah-dom-scanner.php:100
+msgid "'allow_url_fopen' on your server must to be enabled."
+msgstr "'allow_url_fopen' on your server must to be enabled."
+
+#: admin/pages/wah-dom-scanner.php:107
+msgid "Server information:"
+msgstr "פרטי השרת:"
+
+#: admin/pages/wah-dom-scanner.php:128
+msgid "Select Page or Post"
+msgstr "בחר עמוד או מאמר"
+
+#: admin/pages/wah-dom-scanner.php:130
+msgid "Page:"
+msgstr "עמוד:"
+
+#: admin/pages/wah-dom-scanner.php:137
+msgid "Post:"
+msgstr "מאמר:"
+
+#: admin/pages/wah-dom-scanner.php:147
+msgid "Start WAH Scanner"
+msgstr "התחל סריקה"
+
+#: admin/pages/wah-landmark.php:40
+msgid "Landmark Control"
+msgstr "לוח בקרה למבנה"
+
+#: admin/pages/wah-landmark.php:41
+msgid "ARIA and HTML5"
+msgstr "ARIA ו- HTML5"
+
+#: admin/pages/wah-landmark.php:45
+msgid ""
+"More information about HTML5 landmarks you can find <a href=\"%s\" target="
+"\"_blank\">HERE</a>."
+msgstr ""
+"More information about HTML5 landmarks you can find <a href=\"%s\" target="
+"\"_blank\">HERE</a>."
+
+#: admin/pages/wah-landmark.php:95
+msgid "Control HTML5 elements selectors"
+msgstr "שליטה על תגיות של HTML5"
+
+#: admin/pages/wah-landmark.php:102
+msgid "Header element selector"
+msgstr "בחר מזהה ל-header"
+
+#: admin/pages/wah-landmark.php:111
+msgid "Sidebar element selector"
+msgstr "בחר מזהה ל-sidebar"
+
+#: admin/pages/wah-landmark.php:120
+msgid "Footer element selector"
+msgstr "בחר מזהה ל-footer"
+
+#: admin/pages/wah-landmark.php:129
+msgid "Main element selector"
+msgstr "בחר מזהה ל-main"
+
+#: admin/pages/wah-landmark.php:138
+msgid "Navigation element selector"
+msgstr "בחר מזהה ל-navigation"
+
+#: admin/pages/wah-landmark.php:144
+msgid "Custom CSS"
+msgstr "CSS מותאם אישית"
+
+#: admin/pages/wah-sidebar-controls.php:4
+msgid "Sidebar widgets order"
+msgstr "סדר וידג'טים"
+
+#: inc/wah-front-functions.php:59
+msgid "You do NOT have permissions to access this page"
+msgstr "אין לך הרשאות לגשת לעמוד זה."
+
+#: inc/wah-front-functions.php:60
+msgid "Please contact site administrator."
+msgstr "נא ליצור קשר עם מנהל האתר."
+
+#: inc/wah-front-functions.php:135
+msgid "Font Resize"
+msgstr "שינוי גודל גופנים"
+
+#: inc/wah-front-functions.php:137
+msgid "Contrast"
+msgstr "ניגודיות"
+
+#: inc/wah-front-functions.php:138
+msgid "Choose color"
+msgstr "בחר צבע"
+
+#: inc/wah-front-functions.php:142
+msgid "Underline links"
+msgstr "קו תחתון לקישורים"
+
+#: inc/wah-front-functions.php:146
+msgid "Remove styles"
+msgstr "הסר עיצובים"
+
+#: inc/wah-front-functions.php:147 wp-accessibility-helper-view.php:3
+msgid "Close"
+msgstr "סגור"
+
+#: inc/wah-front-functions.php:149 wp-accessibility-helper-view.php:4
+msgid "Clear cookies"
+msgstr "לנקות זכרון \"עוגיות\""
+
+#: inc/wah-front-functions.php:152
+msgid "Images Greyscale"
+msgstr "גווני אפור לתמונות"
+
+#: inc/wah-front-functions.php:155
+msgid "Highlight Links"
+msgstr "סמן קישורים עם צבע רקע?"
+
+#: inc/wah-front-functions.php:158
+msgid "Invert Colors"
+msgstr "הפוך צבעים"
+
+#: inc/wah-front-functions.php:161
+msgid "Remove Animations"
+msgstr "הסר אנימציות"
+
+#: inc/wah-front-functions.php:164
+msgid "Readable Font"
+msgstr "פונט קריא"
+
+#: inc/wah-front-functions.php:167
+msgid "Keyboard navigation"
+msgstr "ניווט מקלדת"
+
+#: inc/wah-front-functions.php:170
+msgid "Lights Off"
+msgstr "כיבוי אורות"
+
+#: inc/wah-front-functions.php:178 inc/wah-front-functions.php:179
+msgid "smaller font size"
+msgstr "פונט קטן יותר"
+
+#: inc/wah-front-functions.php:180 inc/wah-front-functions.php:181
+msgid "larger font size"
+msgstr "פונט גדול יותר"
+
+#: inc/wah-front-functions.php:216
+msgid "black"
+msgstr "שחור"
+
+#: inc/wah-front-functions.php:218
+msgid "white"
+msgstr "לבן"
+
+#: inc/wah-front-functions.php:220
+msgid "green"
+msgstr "ירוק"
+
+#: inc/wah-front-functions.php:222
+msgid "blue"
+msgstr "כחול"
+
+#: inc/wah-front-functions.php:224
+msgid "red"
+msgstr "אדום"
+
+#: inc/wah-front-functions.php:225
+msgid "orange"
+msgstr "כתום"
+
+#: inc/wah-front-functions.php:227
+msgid "yellow"
+msgstr "צהוב"
+
+#: inc/wah-front-functions.php:229
+msgid "navi"
+msgstr "נאבי"
+
+#: inc/wah-front-functions.php:398
+msgid "Maximum 4 contrast variations"
+msgstr "מקסימום 4 וריאציות ניגודיות"
+
+#: wp-accessibility-helper-view.php:6
+msgid "ON/OFF"
+msgstr "הדלק / כבה"
+
+#: wp-accessibility-helper-view.php:22
+msgid "Accessibility Helper sidebar"
+msgstr "סרגל צד של עוזר נגישות"
+
+#: wp-accessibility-helper-view.php:23 wp-accessibility-helper.php:35
+msgid "Accessibility"
+msgstr "נגישות"
+
+#: wp-accessibility-helper.php:40
+msgid "Widgets Order"
+msgstr "סדר וידג'טים"
+
+#: wp-accessibility-helper.php:44
+msgid "DOM Scanner"
+msgstr "סורק דפי האתר"
+
+#: wp-accessibility-helper.php:48
+msgid "Attachments Control"
+msgstr "לוח בקרת תמונות"
+
+#: wp-accessibility-helper.php:52
+msgid "Landmark & CSS"
+msgstr "מבנה ועיצוב"
+
+#: wp-accessibility-helper.php:56
+msgid "Contribute"
+msgstr "לקדם עוזר נגישות"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Accessibility Helper"
+msgstr "עוזר נגישות WP"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.volkov.co.il"
+msgstr "http://www.volkov.co.il"
+
+#. Description of the plugin/theme
+msgid "Wordpress Accessibility Helper sidebar"
+msgstr "עוזר נגישות עם סרגל צד של וורדפרס"
+
+#. Author of the plugin/theme
+msgid "Alexander Volkov"
+msgstr "אלכסנדר וולקוב"

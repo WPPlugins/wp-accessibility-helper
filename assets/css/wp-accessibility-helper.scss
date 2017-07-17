@@ -1,0 +1,438 @@
+// compileCompressed: wp-accessibility-helper.min.css
+
+$white         : #FFF;
+$black         : #000;
+$red           : #F00;
+$wah_color     : #236478;
+$dark_theme_bg : #232323;
+
+@mixin border_radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin trans($ms) {
+    -webkit-transition: all $ms ease;
+    -moz-transition: all $ms ease;
+    -ms-transition: all $ms ease;
+    -o-transition: all $ms ease;
+    transition: all $ms ease;
+}
+
+/*******************************
+    Accessibility START
+*******************************/
+
+.admin-bar .accessability_container {
+    top:32px;
+}
+body {
+
+    &.is_underline a {
+        text-decoration: underline !important;
+    }
+    &.highlight_links_on a {
+        background-color: yellow !important;
+        color: $black !important;
+        span {
+            color: $black !important;
+        }
+    }
+    &.invert_mode_on {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    &.remove_animations * {
+        transition: none !important;
+        -o-transition: none !important;
+        -ms-transition: none !important;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+    }
+    &.arial_font_on * {
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    &.wah_keyboard_access {
+        a:focus,
+        button:focus,
+        input:focus,
+        select:focus,
+        textarea:focus {
+            background-color: #f3f57c!important;
+            color: $black !important;
+        }
+    }
+    &.admin-bar .wah_plugin_credits {
+        bottom: 32px;
+    }
+
+    .wah_scanner_element {
+        outline: 5px solid yellow !important;
+    }
+    .wah_scanner_link {
+        background-color: yellow !important;
+        outline: 5px solid yellow !important;
+        color: $black !important;
+    }
+    .wah_plugin_credits {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: Arial;
+        font-size: 12px;
+        background: $wah_color!important;
+        color: #FFF !important;
+        a {
+            font-family: Arial;
+            font-size: 12px;
+            display: block;
+            background: $wah_color !important;
+            color: #FFF !important;
+        }
+    }
+
+    .accessability_container {
+
+        width: 200px;
+        background: $white !important;
+        color: $black !important;
+        position: fixed;
+        top: 0px;
+        height: 100%;
+        z-index: 9999999;
+        @include trans(250ms);
+
+        .font_resizer {
+            button.wah-action-button {
+                &.smaller {
+                    width: 46%;
+                    float: left;
+                }
+                &.larger {
+                    float: right;
+                    width: 46%;
+                }
+                &.wah-font-reset {
+                    margin-top: 12px;
+                    width: 100%;
+                    clear: both;
+                }
+            }
+        }
+
+        button.wah-action-button {
+            background: $dark_theme_bg !important;
+            color: $white !important;
+            width: 100%;
+            padding: 5px 0;
+            text-align: center;
+            cursor: pointer;
+            border: 1px solid $white;
+            font-size:15px;
+            font-weight: bold;
+            margin:0;
+            &:hover,
+            &:focus,
+            &.active_button {
+                background: $white !important;
+                color: $black !important;
+            }
+        }
+
+        .a_module {
+            padding-bottom: 0.6rem;
+            margin-bottom: 0.6rem;
+            border-bottom: 1px solid $black;
+            &:before,
+            &:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+
+        &.dark_theme {
+            .a_module {
+                border-bottom: 1px solid #444343;
+            }
+            a.active_button {
+                border:1px solid $wah_color !important;
+            }
+
+            &.accessability_container.active,
+            #access_container,
+            .access_container_inner,
+            .a_module,
+            .a_module_title,
+            .a_module_exe,
+            .font_resizer a,
+            .contrast_trigger {
+                background: $dark_theme_bg !important;
+                color: $white !important;
+            }
+            .font_resizer a,
+            .contrast_trigger {
+                border: 1px solid $white;
+                color: $white;
+            }
+
+
+        }
+    }
+}
+
+body .accessability_container *{
+    background: $white !important;
+    color: $black !important;
+}
+/*****************************
+    RIGHT Sidebar
+******************************/
+.accessibility-location-right {
+    .accessability_container {
+        left:auto !important;
+        right:-200px;
+    }
+}
+/*****************************
+    LEFT Sidebar
+******************************/
+.accessibility-location-left {
+    .accessability_container {
+        left:-200px !important;
+        right: auto;
+        &.active {
+            right:auto;
+            left:0 !important;
+        }
+    }
+    .aicon_link {
+        left:200px;
+        right: auto !important;
+    }
+}
+.accessability_container {
+    &.active {
+        right:0;
+    }
+    a {
+        color: $black;
+    }
+}
+a.aicon_link {
+    display: none;
+    img {
+        max-width: 48px;
+    }
+}
+.access_container_inner {
+    padding: 0 10px;
+    margin-top: 14px;
+}
+button.aicon_link {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    margin: 0;
+    border: 0 !important;
+    cursor: pointer;
+    &:focus {
+    }
+}
+.aicon_link {
+    left:-48px;
+    right: auto !important;
+    position: absolute;
+    max-width: 48px;
+    max-height: 48px;
+    display: inline-block;
+    background: transparent !important;
+}
+.accessibility-location-left .aicon_link {
+    left:auto;
+    right: -48px !important;
+}
+
+button.close_container {
+    background: $wah_color !important;
+    color: $white !important;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+    border: 0;
+    width: 92%;
+    margin: 0 auto;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    font-size: 15px;
+    &:hover,
+    &:focus{
+        background: $white !important;
+        color: $black !important;
+    }
+}
+#access_container {
+    margin-top: 0;
+    padding-top: 10px;
+    a {
+        &:focus {
+            color: $white;
+            background: $black;
+        }
+    }
+}
+.a_module_exe a {
+    text-decoration: none;
+    font-size:15px;
+}
+.a_module_title {
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+.contrast_trigger {
+    width: 100%;
+}
+/*******************/
+.color_selector {
+    display: none;
+    @include trans(250ms);
+    &.is_visible {
+        display: block;
+    }
+    button {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 0;
+        width: 30px;
+        height: 30px;
+        float: left;
+        @include border_radius(20px);
+        border: 2px solid $black;
+        margin: 5px;
+        padding: 0;
+    }
+    .black {background: $black !important;}
+    .white {background: $white !important;}
+    .green {background: #00FF21 !important;}
+    .blue {background: #0FF !important;}
+    .red {background: $red !important;}
+    .orange {background: #FF6A00 !important;}
+    .yellow {background: #FFD800 !important;}
+    .navi {background: #B200FF !important;}
+}
+
+.active_greyscale{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%); -o-filter: grayscale(100%);
+    filter: url(desaturate.svg#greyscale);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.wah-dark-overlay {
+    position: fixed;
+    z-index: 50;
+    background: rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.wah-lights-selector {
+    position: relative;
+    z-index: 100;
+    background: $white;
+    color: $black;
+}
+
+.wah-skip {
+    position: relative;
+    top: -10000px;
+    left: -10000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+    &:focus {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+/**************************
+    Skip links
+**************************/
+.wah-skiplinks-menu {
+    position: absolute;
+    left: 0;
+    top:0;
+    margin:0;
+    padding: 0;
+    ul {
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+        a {
+            text-decoration: none;
+            position: absolute;
+            z-index: 99999;
+            left: -10000px;
+            top: -10000px;
+            &:focus,
+            &:active,
+            &:hover {
+                left: 16px;
+                top:42px;
+                background: #236478;
+                color: #FFF;
+                padding: 6px 20px;
+                display: inline-block;
+                font-size: 18px;
+                font-weight: bold;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+/********************
+Accessibility END
+********************/
+@media only screen and (max-width: 480px) {
+    body .accessability_container {
+        height: auto;
+        padding: 0 0 1rem 0;
+    }
+    a.close_container,
+    .a_module_title {
+        font-size: 14px;
+    }
+    .a_module {
+        padding-bottom: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+    .font_resizer a,
+    .contrast_trigger {
+        font-size: 14px;
+        padding: .2rem;
+    }
+    .a_module_title {
+        display: none;
+    }
+}
